@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shanmukha Krishnaji Mamillapalli — Solutions Architect, AI</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1d1d1f; --muted:#6e6e73; --line:#d2d2d7;
+    --accent:#0071e3; --card:#f5f5f7; --chip:#ebebf0;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#000; --fg:#f5f5f7; --muted:#98989d; --line:#2c2c2e;
+           --accent:#2997ff; --card:#1c1c1e; --chip:#2c2c2e; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+  h1{font-size:clamp(32px,5vw,46px);line-height:1.1;letter-spacing:-.02em;margin:0 0 10px;font-weight:650}
+  .role{font-size:clamp(17px,2.4vw,20px);font-weight:500;margin:0 0 6px}
+  .org{color:var(--muted);margin:0 0 20px}
+  .contact{display:flex;flex-wrap:wrap;gap:14px;font-size:14.5px;color:var(--muted);margin:0 0 24px}
+  .lede{font-size:17px;color:var(--muted);max-width:70ch;margin:0}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:12px;margin:38px 0 0}
+  .stat{background:var(--card);border-radius:12px;padding:18px 16px}
+  .stat b{display:block;font-size:25px;letter-spacing:-.02em;font-weight:650}
+  .stat span{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 26px;font-weight:600}
+  h3{font-size:19px;margin:0 0 3px;letter-spacing:-.01em;font-weight:600}
+  h4.proj{font-size:14.5px;margin:16px 0 6px;font-weight:600;color:var(--fg)}
+
+  .era{display:grid;grid-template-columns:150px 1fr;gap:28px;margin-bottom:38px}
+  .era:last-child{margin-bottom:0}
+  .yr{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums;padding-top:3px}
+  .sub{color:var(--muted);font-size:14.5px;margin:0 0 10px}
+  ul{margin:0;padding-left:19px}
+  li{margin-bottom:7px}
+  li::marker{color:var(--muted)}
+
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+  .chip{background:var(--chip);border-radius:6px;padding:4px 10px;font-size:12.5px;color:var(--muted)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));gap:22px}
+  .skill h4{margin:0 0 8px;font-size:14px;font-weight:600}
+  .skill p{margin:0;color:var(--muted);font-size:14.5px}
+
+  blockquote{margin:0 0 20px;padding-left:16px;border-left:2px solid var(--accent);
+    color:var(--muted);font-size:15.5px}
+
+  footer{padding:36px 0 60px;color:var(--muted);font-size:13px}
+  @media(max-width:640px){ .era{grid-template-columns:1fr;gap:8px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Shanmukha Krishnaji Mamillapalli</h1>
+  <p class="role">Solutions Architect — AI</p>
+  <p class="org">Wipro · client engagement with Apple · Hyderabad, India</p>
+  <div class="contact">
+    <span><a href="mailto:shanmukh.mamillapalli@gmail.com">shanmukh.mamillapalli@gmail.com</a></span>
+    <span>+91 99899 08666</span>
+  </div>
+  <p class="lede">
+    AI platform and infrastructure architect with ~10 years building enterprise-grade
+    vector-database platforms, Retrieval-Augmented Generation systems, and the
+    multi-cloud Kubernetes infrastructure underneath them. I work end-to-end — from
+    RAG and agentic orchestration down to GitOps delivery, security hardening, and
+    the observability that keeps it running.
+  </p>
+
+  <div class="stats">
+    <div class="stat"><b>10</b><span>Years</span></div>
+    <div class="stat"><b>1,200+</b><span>Commits</span></div>
+    <div class="stat"><b>300+</b><span>Pull requests</span></div>
+    <div class="stat"><b>200+</b><span>Issues owned</span></div>
+    <div class="stat"><b>87%</b><span>Closure rate</span></div>
+  </div>
+</header>
+
+<section>
+  <h2>Core expertise</h2>
+  <div class="chips">
+    <span class="chip">Retrieval-Augmented Generation (RAG)</span>
+    <span class="chip">Vector Database Architecture</span>
+    <span class="chip">LLM Integration &amp; Prompt Engineering</span>
+    <span class="chip">Agentic AI &amp; Tool Calling</span>
+    <span class="chip">Model Context Protocol (MCP)</span>
+    <span class="chip">Kubernetes &amp; Multi-Cloud Automation</span>
+    <span class="chip">Infrastructure as Code</span>
+    <span class="chip">Distributed Systems &amp; Microservices</span>
+    <span class="chip">Spark &amp; Streaming Pipelines</span>
+    <span class="chip">Platform Security</span>
+  </div>
+</section>
+
+<section>
+  <h2>How I work</h2>
+  <blockquote>Verify on a live system first, then promote into the shared template.</blockquote>
+  <ul>
+    <li><b>Evidence over inference.</b> Fixes are proven against a running cluster before
+        being generalized into provisioning templates — along with the automated check
+        that keeps them proven.</li>
+    <li><b>Distrust silent success.</b> A recurring contribution is finding code paths that
+        log success while quietly discarding the change. Several of the highest-impact
+        bugs I have fixed reported no error at all.</li>
+    <li><b>Risk-sequenced delivery.</b> Commits split by blast radius; dev before UAT
+        before production; explicit sign-off ahead of production mutations.</li>
+    <li><b>GitOps over live mutation.</b> Infrastructure changes flow through version
+        control and reconciliation, not ad-hoc commands.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="era">
+    <div class="yr">Jun 2026 — present</div>
+    <div>
+      <h3>Solutions Architect — AI</h3>
+      <p class="sub">Wipro · client engagement with Apple</p>
+      <ul>
+        <li>Principal engineer on an enterprise vector-database platform spanning three
+            managed-Kubernetes environments across two public clouds and a private cloud.</li>
+        <li>Built the GitOps control plane — reconciliation ordering, dependency staging,
+            and promotion across development, UAT, and production.</li>
+        <li>Designed and shipped three operational services: a fleet-monitoring UI, an
+            agentic fleet-health investigator built on native Kubernetes MCP diagnostics,
+            and a Java operations console.</li>
+        <li>Led a security-hardening programme — verified an external assessment's full
+            finding set against a live cluster, remediated, then ported the proven fixes
+            into the provisioning template with automated verification.</li>
+        <li>Owned backup correctness end-to-end, moving to append-only immutable backups
+            with least-privilege roles, lifecycle-bound retention, and a restore harness.</li>
+        <li>Decomposed in-cluster coordination and streaming dependencies into
+            namespace-isolated clusters with automated certificate issuance, mutual TLS,
+            and RBAC; packaged and published charts and multi-architecture images.</li>
+        <li>Built the service-exposure architecture: per-service TCP passthrough, gateway
+            SNI and gRPC re-encryption, mutual TLS, and SSO via OIDC.</li>
+      </ul>
+      <div class="chips">
+        <span class="chip">Kubernetes</span><span class="chip">GitOps / Flux</span>
+        <span class="chip">Helm</span><span class="chip">Envoy Gateway</span>
+        <span class="chip">cert-manager</span><span class="chip">MCP</span>
+        <span class="chip">Prometheus</span><span class="chip">Grafana</span>
+        <span class="chip">Python</span><span class="chip">Java / Spring</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="era">
+    <div class="yr">Dec 2024 — May 2026</div>
+    <div>
+      <h3>Engineering Lead</h3>
+      <p class="sub">Ness Digital Engineering · client engagement with S&amp;P Global</p>
+      <ul>
+        <li>Led modernization of an enterprise analytical desktop platform onto a
+            microservices architecture.</li>
+        <li>Designed and integrated generative-AI capabilities for intelligent document
+            summarization and contextual insight, applied to financial and ratings
+            documents.</li>
+        <li>Built a secure API layer for integrating AI services into enterprise
+            applications, with role-based access and controlled data exposure.</li>
+        <li>Implemented prompt optimization and response-validation strategies to make
+            model outputs reliable enough for analyst workflows.</li>
+        <li>Developed React components surfacing AI-generated insight alongside existing
+            analyst tooling, backed by Spring Boot services on Kubernetes.</li>
+      </ul>
+      <div class="chips">
+        <span class="chip">LLM Integration</span><span class="chip">Prompt Engineering</span>
+        <span class="chip">Spring Boot</span><span class="chip">ReactJS</span>
+        <span class="chip">Kubernetes</span><span class="chip">Microservices</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="era">
+    <div class="yr">Jan 2022 — Dec 2024</div>
+    <div>
+      <h3>Principal Engineer — Generative AI</h3>
+      <p class="sub">Infosys · Technology Lead → Digital Solutions Specialist · client engagement with Apple</p>
+
+      <h4 class="proj">Vector Database as a Service</h4>
+      <ul>
+        <li>Architected distributed vector-database cluster deployments across AWS EKS,
+            GCP GKE, and a private cloud, each on its native object store.</li>
+        <li>Built a multi-tenant platform with RBAC-based onboarding, and laid the
+            groundwork for one-click cluster automation.</li>
+        <li>Automated multi-node provisioning as code with Pulumi and cloud SDKs —
+            cluster lifecycle, network policy, certificate issuance and global load
+            balancing — designed for high availability with autoscaling, rolling
+            upgrades, and disaster recovery.</li>
+        <li>Integrated Prometheus and Grafana for monitoring and performance tuning.</li>
+      </ul>
+
+      <h4 class="proj">Enterprise RAG &amp; LLM Integration</h4>
+      <ul>
+        <li><b>Top contributor on a seven-engineer team</b> building the enterprise
+            GenAI platform.</li>
+        <li>Designed the Retrieval-Augmented Generation architecture for enterprise
+            knowledge retrieval.</li>
+        <li>Built the document ingestion pipeline — chunking, embedding generation, and
+            metadata enrichment — storing embeddings under optimized ANN indexing.</li>
+        <li>Integrated an internal LLM for context-aware question answering, with Top-K
+            similarity search, re-ranking, and hallucination-reduction strategies.</li>
+        <li>Designed a structured response format pairing each answer with its top
+            supporting source documents.</li>
+      </ul>
+
+      <h4 class="proj">Agentic AI &amp; MCP</h4>
+      <ul>
+        <li>Implemented multi-step agentic workflows with tool-calling capability.</li>
+        <li>Applied Model Context Protocol principles for dynamic context injection.</li>
+        <li>Built an orchestration layer handling query decomposition and structured
+            output validation.</li>
+      </ul>
+
+      <h4 class="proj">Open-Source Contribution</h4>
+      <ul>
+        <li>Contributed upstream to the Milvus project — reproducing and fixing vector
+            indexing and query-performance issues, and resolving Kubernetes deployment
+            and configuration bugs, through community review and patch validation.</li>
+      </ul>
+
+      <div class="chips">
+        <span class="chip">RAG</span><span class="chip">Milvus</span>
+        <span class="chip">Embeddings / ANN</span><span class="chip">Pulumi</span>
+        <span class="chip">AWS EKS</span><span class="chip">GCP GKE</span>
+        <span class="chip">Open Source</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="era">
+    <div class="yr">Apr 2019 — Jan 2022</div>
+    <div>
+      <h3>Big Data Engineer</h3>
+      <p class="sub">Infosys · Technology Analyst · client engagement with Apple</p>
+      <ul>
+        <li>Built a <b>Spark-as-a-Service platform on EKS</b> — a Java/Spring WebFlux
+            cluster-lifecycle API with templated provisioning, worker node-group and
+            warm-pool capacity management, and an Angular self-service UI.</li>
+        <li>Core contributor to a Spark/HBase pipeline platform serving several
+            business-domain workloads, introducing Avro encoding for column-qualifier
+            storage.</li>
+        <li>Built <b>Kafka → Spark Structured Streaming → HDFS/Parquet</b> pipelines
+            with Avro schema encoding for manufacturing test telemetry — checkpointed,
+            trigger-interval-tuned streaming jobs in Scala.</li>
+        <li>Performance engineering at scale — join optimization, repartition-to-shuffle
+            tuning, and threshold-based splitting of 100M+ row key sets.</li>
+        <li>Built and published the containerized <b>Spark TPC-DS benchmarking suite</b>
+            — data-generation and benchmark workloads on Kubernetes, iterated across
+            multiple releases and run via both native Jobs and the Spark operator.</li>
+        <li>Built monitoring dashboards and cost-optimization tooling.</li>
+      </ul>
+      <div class="chips">
+        <span class="chip">Spark</span><span class="chip">Scala</span>
+        <span class="chip">HBase</span><span class="chip">Kafka</span>
+        <span class="chip">Avro</span><span class="chip">Hive</span>
+        <span class="chip">Spring WebFlux</span><span class="chip">Angular</span>
+        <span class="chip">EKS</span><span class="chip">TPC-DS</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="era">
+    <div class="yr">Sep 2017 — Apr 2019</div>
+    <div>
+      <h3>Fullstack Developer</h3>
+      <p class="sub">Infosys · System Engineer · client engagement with Apple</p>
+      <ul>
+        <li>Built and maintained a centralized cluster-monitoring platform in Spring Boot
+            and Angular — the longest-running system I have owned, including a full
+            front-end redesign.</li>
+        <li>Developed REST APIs, DAO layers, reporting modules, and predictive
+            disk-utilization tooling.</li>
+        <li>Developed a JVM metrics collector: multi-host support, connection-leak
+            remediation, TLS truststore handling, and dependency vulnerability fixes.</li>
+        <li>Built a self-service web application for provisioning clusters across two
+            public clouds, with metrics and autoscaling.</li>
+      </ul>
+      <div class="chips">
+        <span class="chip">Java</span><span class="chip">Spring Boot</span>
+        <span class="chip">Angular</span><span class="chip">JMX</span>
+        <span class="chip">Hadoop</span><span class="chip">AWS / GCP</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <h2>Technical focus</h2>
+  <div class="grid">
+    <div class="skill"><h4>Generative AI</h4>
+      <p>RAG architecture, embedding pipelines and ANN indexing, LLM integration,
+         prompt engineering and response validation, agentic workflows, tool calling,
+         Model Context Protocol.</p></div>
+    <div class="skill"><h4>Cloud &amp; Orchestration</h4>
+      <p>Kubernetes across managed and private clouds, GitOps reconciliation, Helm,
+         Kustomize, Envoy Gateway, CNI network policy, operators and CRDs, Pulumi.</p></div>
+    <div class="skill"><h4>Languages</h4>
+      <p>Python, Java (Spring Boot, WebFlux), Scala, Bash, JavaScript/TypeScript,
+         React, Angular, SQL — plus declarative configuration at scale.</p></div>
+    <div class="skill"><h4>Data Systems</h4>
+      <p>Vector databases, Spark, HBase, Hive, Kafka, etcd, Avro, PostgreSQL,
+         Oracle, MySQL.</p></div>
+    <div class="skill"><h4>Security</h4>
+      <p>Mutual TLS and PKI, RBAC, network policy, pod security admission, IAM and
+         least-privilege design, CVE and SBOM remediation, secrets management,
+         immutable storage.</p></div>
+    <div class="skill"><h4>Observability</h4>
+      <p>Prometheus, Grafana dashboards-as-code, log aggregation, correlation-aware
+         health scoring, automated root-cause analysis.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="era">
+    <div class="yr">2015</div>
+    <div>
+      <h3>B.Tech, Electronics &amp; Communication Engineering</h3>
+      <p class="sub">Jawaharlal Nehru Technological University · 73.23%</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="padding:0">
+    Detail on client-internal systems is intentionally generalized.
+    Happy to discuss specifics in conversation.
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
